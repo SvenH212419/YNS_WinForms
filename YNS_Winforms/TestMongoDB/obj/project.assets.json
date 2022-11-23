@@ -634,11 +634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NovaFoxy\\source\\repos\\TestMongoDB\\TestMongoDB\\TestMongoDB.csproj",
+      "projectUniqueName": "C:\\Users\\NovaFoxy\\Documents\\YNS_WinForms\\YNS_Winforms\\TestMongoDB\\TestMongoDB.csproj",
       "projectName": "TestMongoDB",
-      "projectPath": "C:\\Users\\NovaFoxy\\source\\repos\\TestMongoDB\\TestMongoDB\\TestMongoDB.csproj",
+      "projectPath": "C:\\Users\\NovaFoxy\\Documents\\YNS_WinForms\\YNS_Winforms\\TestMongoDB\\TestMongoDB.csproj",
       "packagesPath": "C:\\Users\\NovaFoxy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NovaFoxy\\source\\repos\\TestMongoDB\\TestMongoDB\\obj\\",
+      "outputPath": "C:\\Users\\NovaFoxy\\Documents\\YNS_WinForms\\YNS_Winforms\\TestMongoDB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NovaFoxy\\AppData\\Roaming\\NuGet\\NuGet.Config",
