@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\svent\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\svent\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\NovaFoxy\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\NovaFoxy\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

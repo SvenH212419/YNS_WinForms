@@ -5,16 +5,11 @@ namespace TestMongoDB
 {
     public partial class Form1 : Form
     {
-        MongoClient m_Client;
-        IMongoDatabase m_Database;
-        IMongoCollection<Media> m_Collection;
 
         public Form1()
         {
             InitializeComponent();
-            m_Client = new MongoClient("mongodb+srv://NovaFoxy:Kyuubi99@maincluster.jtr1q.mongodb.net/?retryWrites=true&w=majority");
-            m_Database = m_Client.GetDatabase("FoxFinder");
-            m_Collection = m_Database.GetCollection<Media>("Media");
+            
 
         }
 
@@ -22,8 +17,17 @@ namespace TestMongoDB
         {
             try
             {
-                var ding = m_Database.GetCollection<Media>("Media").FindSync(x => x.Media_type == "Game").FirstOrDefault();
-                MessageBox.Show(ding.Media_title, ding.Media_playable);
+                var dbClient = new MongoClient("mongodb+srv://NovaFoxy:Kyuubi99@maincluster.jtr1q.mongodb.net/?retryWrites=true&w=majority");
+                IMongoDatabase db = dbClient.GetDatabase("YNS");
+                var YNS = db.GetCollection<BsonDocument>("Parameters");
+
+                var documents = YNS.Find(new BsonDocument()).ToList();
+
+                foreach (BsonDocument doc in documents)
+                {
+                    MessageBox.Show(doc.ToString());
+                }
+                
 
             }
             catch (Exception ex)

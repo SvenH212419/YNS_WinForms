@@ -36,6 +36,8 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.mongoDBBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Celsius = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Temp = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mongoDBBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -43,10 +45,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 556);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(10, 417);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 31);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "Read";
             this.button1.UseVisualStyleBackColor = true;
@@ -55,9 +56,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 44);
+            this.label1.Location = new System.Drawing.Point(27, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 20);
+            this.label1.Size = new System.Drawing.Size(46, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "Engine:";
             this.label1.Click += new System.EventHandler(this.label1_Click_2);
@@ -65,18 +66,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(52, 77);
+            this.label2.Location = new System.Drawing.Point(46, 58);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 20);
+            this.label2.Size = new System.Drawing.Size(39, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "Temp:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(52, 113);
+            this.label3.Location = new System.Drawing.Point(46, 85);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 20);
+            this.label3.Size = new System.Drawing.Size(40, 15);
             this.label3.TabIndex = 3;
             this.label3.Text = "Knots:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -85,42 +86,58 @@
             // 
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Celsius,
+            this.Temp});
             this.dataGridView1.DataSource = this.mongoDBBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(107, 67);
+            this.dataGridView1.Location = new System.Drawing.Point(94, 50);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(300, 30);
+            this.dataGridView1.Size = new System.Drawing.Size(262, 22);
             this.dataGridView1.TabIndex = 4;
+            
             // 
             // mongoDBBindingSource
             // 
             this.mongoDBBindingSource.DataSource = typeof(TestMongoDB.MongoDB);
+            
             // 
             // dataGridView2
             // 
-            this.dataGridView2.AutoGenerateColumns = false;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.DataSource = this.mongoDBBindingSource;
-            this.dataGridView2.Location = new System.Drawing.Point(107, 103);
+            this.dataGridView2.Location = new System.Drawing.Point(94, 77);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 29;
-            this.dataGridView2.Size = new System.Drawing.Size(300, 30);
+            this.dataGridView2.Size = new System.Drawing.Size(262, 22);
             this.dataGridView2.TabIndex = 5;
+            // 
+            // Celsius
+            // 
+            this.Celsius.HeaderText = "";
+            this.Celsius.Name = "Celsius";
+            this.Celsius.ReadOnly = true;
+            // 
+            // Temp
+            // 
+            this.Temp.HeaderText = "°C";
+            this.Temp.Name = "Temp";
+            this.Temp.ReadOnly = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 600);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -141,5 +158,7 @@
         private DataGridView dataGridView1;
         private BindingSource mongoDBBindingSource;
         private DataGridView dataGridView2;
+        private DataGridViewTextBoxColumn Celsius;
+        private DataGridViewTextBoxColumn Temp;
     }
 }
