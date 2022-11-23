@@ -12,7 +12,7 @@ namespace TestMongoDB
         public Form1()
         {
             InitializeComponent();
-            m_Client = new MongoClient("mongodb+srv://NovaFoxy:<Kyuubi99>@maincluster.jtr1q.mongodb.net/?retryWrites=true&w=majority");
+            m_Client = new MongoClient("mongodb+srv://<Sven1719>:<Winnie19>@maincluster.jtr1q.mongodb.net/test\r\n");
             m_Database = m_Client.GetDatabase("FoxFinder");
             m_Collection = m_Database.GetCollection<Media>("Media");
 

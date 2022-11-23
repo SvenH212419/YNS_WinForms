@@ -28,3 +28,33 @@ C:\Users\NovaFoxy\source\repos\TestMongoDB\TestMongoDB\obj\Debug\net6.0-windows\
 C:\Users\NovaFoxy\source\repos\TestMongoDB\TestMongoDB\obj\Debug\net6.0-windows\ref\TestMongoDB.dll
 C:\Users\NovaFoxy\source\repos\TestMongoDB\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.pdb
 C:\Users\NovaFoxy\source\repos\TestMongoDB\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.genruntimeconfig.cache
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\TestMongoDB.exe
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\TestMongoDB.deps.json
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\TestMongoDB.runtimeconfig.json
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\TestMongoDB.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\TestMongoDB.pdb
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\DnsClient.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\MongoDB.Bson.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\MongoDB.Driver.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\MongoDB.Driver.Core.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\MongoDB.Libmongocrypt.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\SharpCompress.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\Snappier.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\ZstdSharp.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\runtimes\linux\native\libmongocrypt.so
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.csproj.AssemblyReference.cache
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.Form1.resources
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.csproj.GenerateResource.cache
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.GeneratedMSBuildEditorConfig.editorconfig
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.AssemblyInfoInputs.cache
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.AssemblyInfo.cs
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.csproj.CoreCompileInputs.cache
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.csproj.CopyComplete
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\refint\TestMongoDB.dll
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.pdb
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\TestMongoDB.genruntimeconfig.cache
+D:\YNS Winforms\YNS_WinForms\YNS_Winforms\TestMongoDB\obj\Debug\net6.0-windows\ref\TestMongoDB.dll
