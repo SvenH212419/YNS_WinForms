@@ -13,12 +13,25 @@ namespace TestMongoDB
 
         public MongoDB()
         {
-            MongoClient dbClient = new MongoClient("mongodb+srv://NovaFoxy:<Kyuubi99>@maincluster.jtr1q.mongodb.net/?retryWrites=true&w=majority");
+            try
+            {
+                var dbClient = new MongoClient("mongodb+srv://NovaFoxy:Kyuubi99@maincluster.jtr1q.mongodb.net/?retryWrites=true&w=majority");
+                IMongoDatabase db = dbClient.GetDatabase("YNS");
+                var YNS = db.GetCollection<BsonDocument>("Parameters");
 
-            var dbList = dbClient.ListDatabases().ToList();
+                var documents = YNS.Find(new BsonDocument()).ToList();
 
-            Console.WriteLine("The list of databases on this server is: ");
-            foreach (var db in dbList);
+                foreach (BsonDocument doc in documents)
+                {
+                    MessageBox.Show(doc.ToString());
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Yo");
+            }
         }
     }
 }

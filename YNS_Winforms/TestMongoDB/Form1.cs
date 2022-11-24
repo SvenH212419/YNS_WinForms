@@ -15,25 +15,7 @@ namespace TestMongoDB
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                var dbClient = new MongoClient("mongodb+srv://NovaFoxy:Kyuubi99@maincluster.jtr1q.mongodb.net/?retryWrites=true&w=majority");
-                IMongoDatabase db = dbClient.GetDatabase("YNS");
-                var YNS = db.GetCollection<BsonDocument>("Parameters");
-
-                var documents = YNS.Find(new BsonDocument()).ToList();
-
-                foreach (BsonDocument doc in documents)
-                {
-                    MessageBox.Show(doc.ToString());
-                }
-                
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Yo");
-            }
+            MongoDB mongoDB = new MongoDB();
         }
 
         private void Form1_Load(object sender, EventArgs e)
